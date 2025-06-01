@@ -1,5 +1,7 @@
 # deduplicator2k
 
+![Project Logo](logo.png)
+
 **deduplicator2k** is a command-line tool designed to help users identify and remove duplicate files within a given directory.
 
 ## Features
@@ -34,3 +36,7 @@ python deduplicator2k.py -d /path/to/directory -v -p
 -p, --progress     # Show a progress bar
 -s, --silent       # Run in silent mode
 ```
+
+## TO DO
+- Add option to schedule scan (e.g., using cron jobs, task schedulers, or a custom implementation)
+- Test if calculating hash every scan is slower than check in db. If so, address the issue of files that might have been modified between scans.  
