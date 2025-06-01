@@ -23,7 +23,6 @@ python deduplicator2k.py [OPTIONS]
 python deduplicator2k.py -d /path/to/directory -v -p
 
 ## Arguments
-
 ```
 -d, --directory    # Directory to scan for duplicate files
 -y, --assumeyes    # Assume "yes" to all prompts
