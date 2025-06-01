@@ -17,10 +17,12 @@ To use `deduplicator2k`, ensure you have Python installed. Clone or download the
 ## Usage
 ```bash
 python deduplicator2k.py [OPTIONS]
+```
 
 ## Example Usage
 ```bash
 python deduplicator2k.py -d /path/to/directory -v -p
+```
 
 ## Arguments
 ```
