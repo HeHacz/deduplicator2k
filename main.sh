@@ -1,0 +1,1 @@
+python3 ./src/main.py -d /home/hehacz/repo/deduplicator2K/test_files -y
